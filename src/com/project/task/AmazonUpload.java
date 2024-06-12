@@ -17,8 +17,8 @@ public class AmazonUpload {
 
 	private static final String SUFFIX = "/";
 	
-	private static String accessKey = "AKIAVRUVQG7B3BCXCXMN";
-    private static String secretKey = "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";
+	private static String accessKey = "ACCESS_KEY";
+    private static String secretKey = "ACCESS_SECRET";
     private static String region = "us-east-1";
 
     private static BasicAWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
