@@ -1,0 +1,58 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>BlockChain-Upload</title>
+
+   
+     <meta name='description' content=''>
+    <meta name='viewport' content='width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+      
+    <!--Css files-->
+    <link rel="Stylesheet" href="css/style.css"/> 
+    
+    <link rel="Stylesheet" href="css/HCo_fonts.css" /> 
+    <link rel="Stylesheet" href="css/bootstrap.css" />
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+
+</head>
+<body>
+    <jsp:include page="menu.jsp"></jsp:include>
+	
+    <div class="container" > 
+        <div class="bodyContainer">
+        <div class="panel panel-default mtop20">
+		<div class="panel-heading">
+          <h3 class="panel-title">Add Report</h3>
+        </div>
+         <div class="panel-body">
+         <div class="row" style="margin-top: 25px;margin-bottom: 25px;">
+          <div class="col-sm-4"></div>
+           <div class="col-sm-4"> 
+            <form action="UploadFileServlet" method="post" enctype="multipart/form-data">
+                <label>Report Name</label>
+            	<input type="text" id="reportName" class="form-control"  name="reportName" placeholder="Report Name" required  /><br>
+            	<!-- <label>Report Date</label>
+            	<input type="text" id="reportDate" class="form-control"  name="reportDate" placeholder="Report Date" required  /><br> -->
+            	<label>Supported File (*.txt)</label>
+				<input type="file" id="file" class="form-control"  name="file" required/>
+				<button type="submit" class="btn btn-primary text-center" style="margin-top: 15px;text-align: center;">Upload File</button>	
+			</form>
+			  
+           </div>
+           </div>
+            
+         </div>
+         </div>
+        </div>
+       </div>
+       
+<jsp:include page="footer.jsp"></jsp:include>
+
+</body>
+</html>
