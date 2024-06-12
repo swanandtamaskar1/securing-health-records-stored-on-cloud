@@ -8,14 +8,14 @@ To achieve higher security we follow a three step process:
 3. Each part is stored in random buckets on AWS S3.
 
 ## Features
-Simple user interface for admin,doctor and patient.
-Admin can view, add and modify doctor or patient.
-Doctor can add, view patient details.
-Doctor can request for patient report download and can download only with patient OTP. 
-OTP Consent Mechanism for security.
-Patient can upload report, view his medical history.
-Files are split into multiple chunks of data, encrypted and then stored on cloud.
-During download, the parts of file are decrypted and merged.
+-Simple user interface for admin, doctor and patient.
+-Admin can view, add and modify doctor or patient.
+-Doctor can add, view patient details.
+-Doctor can request for patient report download and can download only with patient OTP. 
+-OTP Consent Mechanism for security.
+-Patient can upload report, view his medical history.
+-Files are split into multiple chunks of data, encrypted and then stored on cloud.
+-During download, the parts of file are decrypted and merged.
 
 This project uses the concept of blockchain at the backend as it stores the data <br>
 in blocks and the blocks are distributed randomly on the cloud storage buckets.
@@ -25,7 +25,7 @@ in blocks and the blocks are distributed randomly on the cloud storage buckets.
 ![Screenshot (788)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/01d526d1-a29e-4a0f-a625-5928aa84d67b)
 ![Screenshot (791)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/1ce65e8b-16df-46c7-8541-c61d4527e9cc)
 ![Screenshot 2024-04-22 132450](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/2f1ca2b8-b960-471e-9f1f-75338d8f379b)
-![Screenshot (792)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/8d967787-7e21-4960-bbc3-cf7689e0af62)
+![Screenshot (792)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/bf90b122-0920-4e0d-b76b-c09292490dbd)
 ![Screenshot (793)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/79d89dde-bdda-4efa-a1e3-21b46e008d48)
 ![Screenshot (794)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/b24025ad-872d-48b8-b335-247afbbd9001)
 ![Screenshot (795)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/132a2925-6f0a-4790-b3db-b9a6ed5b391d)
@@ -39,6 +39,7 @@ in blocks and the blocks are distributed randomly on the cloud storage buckets.
 ![Screenshot (802)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/1660d3b8-ebed-4db8-96a5-a634cdb4730a)
 ![Screenshot (804)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/45a25eca-20de-457f-a03e-188eccfdc12f)
 ![Screenshot (806)](https://github.com/swanandtamaskar1/securing-health-records-stored-on-cloud/assets/35898035/628c8cc7-f19f-4b7c-ac33-b8974463ceec)
+
 
 
 
