@@ -8,14 +8,14 @@ To achieve higher security we follow a three step process:
 3. Each part is stored in random buckets on AWS S3.
 
 ## Features
--Simple user interface for admin, doctor and patient.
--Admin can view, add and modify doctor or patient.
--Doctor can add, view patient details.
--Doctor can request for patient report download and can download only with patient OTP. 
--OTP Consent Mechanism for security.
--Patient can upload report, view his medical history.
--Files are split into multiple chunks of data, encrypted and then stored on cloud.
--During download, the parts of file are decrypted and merged.
+ - Simple user interface for admin, doctor and patient.
+ - Admin can view, add and modify doctor or patient.
+ - Doctor can add, view patient details.
+ - Doctor can request for patient report download and can download only with patient OTP. 
+ - OTP Consent Mechanism for security.
+ - Patient can upload report, view his medical history.
+ - Files are split into multiple chunks of data, encrypted and then stored on cloud.
+ - During download, the parts of file are decrypted and merged.
 
 This project uses the concept of blockchain at the backend as it stores the data <br>
 in blocks and the blocks are distributed randomly on the cloud storage buckets.
